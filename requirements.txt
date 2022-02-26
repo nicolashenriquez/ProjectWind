@@ -4,4 +4,4 @@ requests
 folium
 tensorflow
 pandas
-numpu
+numpy
