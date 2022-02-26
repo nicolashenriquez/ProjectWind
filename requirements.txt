@@ -1,1 +1,7 @@
 streamlit
+streamlit_folium
+requests
+folium
+tensorflow
+pandas
+numpu
