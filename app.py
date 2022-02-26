@@ -24,9 +24,9 @@ def pinpoint_WTGs_prediction():
     predictions_25 = predictions[0:25]
     WTG_longitude = 18.97466035850479
     WTG_latitude= -69.27671861610212
-    icon_url = "app/wind-turbine.png"
-    icon_url_red = "app/wind-turbine-red.png"
-    icon_url_orange = "app/wind-turbine-orange.png"
+    icon_url = "wind-turbine.png"
+    icon_url_red = "wind-turbine-red.png"
+    icon_url_orange = "wind-turbine-orange.png"
     coordinates = [WTG_longitude,WTG_latitude]
     m = folium.Map(location=coordinates,zoom_start=13.5 ,tiles='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
                 attr='Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community')
