@@ -2,6 +2,6 @@ streamlit
 streamlit_folium
 requests
 folium
-tensorflow
+tensorflow-cpu
 pandas
 numpy
